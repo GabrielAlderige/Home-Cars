@@ -2,75 +2,102 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <script src="script.js"></script>
-    <title>Home Cars - Gabriel Alderige</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
+    rel="stylesheet" />
+  <title>Home Cars - Gabriel Alderige</title>
 </head>
 
 <body>
-    <header>
-        <img src="./assets/logo.png" alt="Logo">
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Carros</li>
-                <li>Fale Conosco</li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <img src="./assets/logo.png" alt="Logo" />
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Carros</li>
+        <li>Fale Conosco</li>
+      </ul>
+    </nav>
+  </header>
 
-    <section>
-        <div class="list">
-            <div class="item">
-                <div class="car-image">
-                    <img src="./assets/1.png" alt="imagem carro">
-                </div>
-
-                <div class="content">
-                    <p class="car-information">
-                        Único dono - 2025
-                    </p>
-                    <h2>
-                        Ferrari
-                    </h2>
-                    <p class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam commodi, blanditiis
-                        explicabo laudantium quae iste, praesentium hic odio quia necessitatibus exercitationem esse
-                        repellendus libero odit quibusdam corporis voluptatem sit possimus.
-                    </p>
-                    <button class="information">
-                        Saiba Mais
-                    </button>
-                </div>
-            </div>
+  <section class="container">
+    <div class="list">
+      <!-- CARRO 1 -->
+      <div class="item active">
+        <div class="car-image">
+          <img src="./assets/1.png" alt="imagem carro" />
         </div>
-
-        <div class="arrows">
-            <button><img src="./assets/arrow.png" alt="setas"></button>
-            <button><img src="./assets/arrow.png" alt="setas"></button>
+        <div class="content">
+          <p class="car-information">Único dono - 2025</p>
+          <h2>Porsche 911</h2>
+          <p class="description">
+            A perfeita combinação entre elegância e potência. O Porsche 911 entrega desempenho esportivo com conforto premium, ideal para quem busca exclusividade em cada curva.
+          </p>
+          <button class="information">Saiba Mais</button>
         </div>
+      </div>
 
-        <div class="indicators">
-            <div class="number">01</div>
-            <ul>
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-            </ul>
+      <!-- CARRO 2 -->
+      <div class="item">
+        <div class="car-image">
+          <img src="./assets/2.png" alt="imagem carro" />
         </div>
-    </section>
+        <div class="content">
+          <p class="car-information">Conversível - 2025</p>
+          <h2>Ferrari</h2>
+          <p class="description">
+            Design arrojado, motor impressionante e uma herança de velocidade. A Ferrari é feita para quem vive intensamente e exige uma experiência automotiva sem limites.
+          </p>
+          <button class="information">Saiba Mais</button>
+        </div>
+      </div>
+
+      <!-- CARRO 3 -->
+      <div class="item">
+        <div class="car-image">
+          <img src="./assets/3.png" alt="imagem carro" />
+        </div>
+        <div class="content">
+          <p class="car-information">Segundo Dono - 2017</p>
+          <h2>Lamborghini</h2>
+          <p class="description">
+            Com linhas agressivas e som inconfundível, a Lamborghini é um ícone da performance. Feita para desafiar o comum e transformar cada trajeto em espetáculo.
+          </p>
+          <button class="information">Saiba Mais</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTÕES -->
+    <div class="arrows">
+      <button id="prev">
+        <img src="./assets/arrow.png" alt="seta esquerda" />
+      </button>
+      <button id="next">
+        <img src="./assets/arrow.png" alt="seta direita" />
+      </button>
+    </div>
+
+    <!-- INDICADORES -->
+    <div class="indicators">
+      <div class="number">01</div>
+      <ul>
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
